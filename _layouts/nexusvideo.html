@@ -1,0 +1,53 @@
+
+{% include headerdark.html %}
+    <div class="container-fluid" style="padding: 30px;">
+        <div class="row">
+        <div class="col-lg-7">
+            <div id="video-container">
+            {{ content }}
+            </div>
+
+            <h2 style="margin-top: 25px;">📺 {{ page.title }}</h2>
+            <p>{{ page.description }}</p>
+        </div>
+        
+            <div class="col-lg-5">
+                <h4 style="margin-bottom: 25px;">Latest Videos</h4>
+
+                {% for post in site.categories.Video %}
+                <div class="video-card" onclick="location.href='{{post.url}}';" style="cursor: pointer;">
+                    <span class="videotitle" href="{{post.url}}">{{post.title}}</span><br>
+                    <p>{{post.description}}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        
+
+    </div>
+
+
+{% include footer.html %}
+
+<style>
+    body {
+        color: white;
+        background-color: #202326;
+    }
+
+    #footer {
+        background-color: grey;
+    }
+
+    #video-container {
+        height: 600px;
+    }
+
+    .video-card {
+        transition: 0.3s linear;
+    }
+    .video-card:hover {
+        background-color: grey;
+    }
+</style>

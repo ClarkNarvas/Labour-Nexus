@@ -1,0 +1,16 @@
+
+{% include header.html %}
+    <div class="container" style="margin-top: 25px;">
+    <div class="horizontal-center">
+        <span class="categories" display: inline;>{{ page.categories }}</span>
+        <h2 class="page-title">{{ page.title }}</h2>
+        <span class="date">📅 {{ page.fulldate }}</span>
+    </div>
+
+    {{ content }}
+
+
+    </div>
+
+    {% include latestfromnexus.html %}
+{% include footer.html %}
