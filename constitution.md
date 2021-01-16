@@ -7,7 +7,7 @@ title: Constitution
 
 <h4>Name</h4>
 1.1 The name of the organisation in all English is ‘Labour Nexus’, which may be abbreviated to ‘Nexus’ in contexts where the meaning is clear.
-Objects
+<h4>Objects</h4>
 
 2.1 The aims of Nexus will be to:
 
