@@ -139,6 +139,6 @@ Amendment and interpretation
 10.3 Other than as provided for by 10.1, sections 3, 8 and 9 of the constitution may only be amended by a joint vote of the executive committee and the advisory board.
 10.4 The AGM shall have the absolute authority to amend any part of the constitution, in accordance with its standing orders if relevant. Only the AGM may amend section 10.
 .
-|<h4>Status</h4>
+<h4>Status</h4>
 
 <b>This constitution was approved by Kerry Stapleton, Conal Land, Mia Worral, Clark Navas, Jack Thurlow, Jack Bowen, Solomon Cuthbertson, Rhiannon Barron and Pat Dixon on the 9th of January 2021 in their capacity as the then-provisional executive committee and advisory board of Nexus, elected at the first Annual General Meeting of the organisation on the 14th of December 2020, and it came into force on that day.</b>
