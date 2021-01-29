@@ -1,7 +1,7 @@
 ---
 layout: nexusblog
 category: Statement
-title: A statement on transphobia
+title: A statement against transphobia following Dr Heather Peto's resignation from LGBTQ+ Labour
 date:  2020-11-29 08:03:53 +0000
 fulldate: Friday 29th January
 thumbnail: /assets/brand/default.png
