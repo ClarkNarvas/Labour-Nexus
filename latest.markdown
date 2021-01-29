@@ -1,5 +1,6 @@
 ---
 layout: home
-title: Latest
+title: LATEST
+navigation_weight: 3
 ---
 

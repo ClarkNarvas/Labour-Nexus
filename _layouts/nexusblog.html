@@ -1,12 +1,13 @@
 
 {% include header.html %}
     <div class="container" style="margin-top: 25px;">
-    <div class="horizontal-center">
-        <span class="categories" display: inline;>{{ page.categories }}</span>
+    <div class="horizontal-center" style="text-align: center;">
+        <span class="categories">{{ page.categories }}</span>
         <h2 class="page-title">{{ page.title }}</h2>
         <span class="date">📅 {{ page.fulldate }}</span>
     </div>
-
+    <br>
+    <br>
     {{ content }}
 
 
