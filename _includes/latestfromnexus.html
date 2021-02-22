@@ -1,56 +1,74 @@
 <div id="latestfromnexusmovement">
-<h3 style="text-align: center;">THE LATEST</h4>
+<h3 style="text-align: center;color:#d84d4d;padding:0; margin: 0;margin-bottom: 10px;">THE LATEST</h4>
 <p style="text-align: center;">Find out what's happening at Labour Nexus</p>
 
     <div class="container-fluid">
+
         <div class="row">
-            {% for post in site.posts limit: 4%}
+                {% for post in site.posts limit: 4%}
             <div class="col-lg-3">
-                <a style="display: block; font-size: 100%;" href="{{ post.url }}"><div class="nexus-card">
-                    <div class="fill" style="height: 200px;">
-                        <img class="card-img-top" style="margin-bottom: 25px;" src="{{post.thumbnail}}">
-                    </div>
-                    <span class="categories" style="margin-top: 25px;display: inline-block;">{{post.categories}}</span>
-                    <span class="date">{{ post.fulldate }}</span>
-                    <h4>{{post.title}}</h4>
-                </div></a>
-        </div>
-            {% endfor %}       
+            <div class="card">
+                <a href="{{ post.url }}" style="text-decoration: none; color: black;font-size: 100%;">
+              <img src="{{ post.thumbnail }}" class="card-img-top" alt="{{ post.thumbnail }}">
+              <div class="card-body">
+                <h5 class="card-title">{{post.title}}</h5>
+                <p class="card-text">{{post.description}}</p>
+                <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %d, %Y' }} |   {{ post.category }}</small></p>
+              </div>
+            </div>
+              </a>
+            </div>
+            {% endfor %}     
+        </div>  
+
+
 </div>
 </div>
 </div>
 
 <style>
     #latestfromnexusmovement {
-  min-height: 400px;
+  min-height: 500px;
   width: 100%;
   background-color: #ffeeee;
   padding: 25px;
   margin-top: 35px;
 }
 
-#latestfromnexusmovement h3 {
-  color: #d84d4d;
+#latestfromnexusmovement h4 {
   margin-bottom: 25px;
+  font-size: 160%;
+}
+
+h5 {
+    font-family: BRANDFONT;
+    text-transform:uppercase;
+    color:#d84d4d;
 }
 
 
-.nexus-card {
-    height: 100%;
-    text-align: center;
-    background-color: white;
+.card {
+    border: 0;
     transition: 0.2s linear;
-    color: black;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.nexus-card:hover {
-    background-color: #ffeeee;
+    height: 650px;
+    margin-top: 25px;
 }
 
-.nexus-card:active {
-    background-color: #d84d4d;
-    color: white;
+.card:hover {
+    background-color:#ffeeee;
 }
+
+.card:hover .card-img-top {
+    opacity: 0.5;
+}
+
+.card:active {
+    background-color:#d84d4d;
+}
+
+.card:active h5, .card:active p, .card:active small.text-muted {
+    color: white !important;
+}
+
 
 </style>

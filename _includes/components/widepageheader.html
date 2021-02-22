@@ -1,0 +1,204 @@
+<div id="newwidepageheader" class="container-fluid">
+    <div id="newwidepageheadertop">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(255, 101, 101, 0);color: white;">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/assets/logo/white-symbol.png" width="auto" height="45" alt="Nexus Movement" style="padding-right: 25px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" style="color: white !important;opacity: 1 !important;">
+                      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
+                      {% for p in navigation_pages %}
+                        {% if p.navigation_weight %}
+                      <li><a class="nav-link" style="opacity: 1 !important;" href="{{ p.url }}" {% if p.url == page.url %} class="active" {% endif %}>
+                        {{ p.title }}
+                      </a></li>
+                      {% endif %}
+                      {% endfor %}
+                    </ul>
+                    <form class="form-inline">
+                      <a class="btn btn-danger" href="/joinus">🌹 Join Us</a>
+                      <a class="btn btn-danger" href="/newsletter" style="margin-left: 10px;">📰 Newsletter</a>
+                    </form>
+                </nav>
+        </header>
+    </div>
+    <div id="newwidepageheaderbottom">
+    <div class="row">
+    <div class="col-lg-4">
+        <div class="widepagecontainer">
+        <div class="widepagebox" style="margin-left: 25px;">
+        <h1>IT'S UP TO US.</h1>
+        <p style="font-size: 150%;">We are building a movement to unite our party together, create an environment for peaceful discourse and win the next general election. We cannot do it without you. </p>
+        </div>
+    </div>
+    </div>
+        <div class="col-lg-3">
+
+        </div>
+        <div class="col-lg-5">
+            <div id="mc_embed_signup" style="background-color:  #ffeeee; color: black;font-family: LotaRegular;padding: 25px;">
+                <form action="https://labournexus.us7.list-manage.com/subscribe/post?u=c930021169c5a78183db214bb&amp;id=f6d41e0bfa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <h4>JOIN US.</h4>
+                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                <div class="mc-field-group">
+        
+
+                    <input type="email" value="" placeholder="Email Address*" name="EMAIL" class="required email nexusform" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group">
+
+                    <input type="text" value="" placeholder="First Name" name="FNAME" class="nexusform" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                    <input type="text" value="" placeholder="Constituency" name="MMERGE2" class="nexusform" id="mce-MMERGE2">
+                </div>
+                    <div id="mce-responses" class="clear">
+                        <br>
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c930021169c5a78183db214bb_f6d41e0bfa" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-danger"></div><br>
+                    <span style="display: inline;">We’ll email you about campaigns, events and opportunities to get involved. You can manage your preferences or unsubscribe at any time.</span>
+                    </div>
+                </form>
+    
+    
+                </div>
+            
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<style>
+    #newwidepageheaderbottom {
+        display: flex;
+        min-height: 70vh;
+        align-items: center;
+        padding-bottom: 70px;
+        }
+
+    #newwidepageheader{
+        background-image:
+        linear-gradient(
+            -90deg,
+            rgba(255, 101, 101, 0),
+            rgba(43, 43, 43, 0.8)
+            ),
+            url("images/stock/oldclement.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        animation-name: widepageanimation;
+        animation-fill-mode: backwards;
+        animation-duration: 0.5s;
+    }
+
+
+
+    
+    #mc_embed_signup {
+        animation-name: scalein;
+        animation-duration: 0.5s;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+    }
+    .widepagebox {
+        animation-name: fadein;
+        animation-duration: 1s;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+    }
+    .navbar {
+        animation-name: slideinmenu;
+        animation-duration: 1s;
+        animation-delay: 0.5s;
+        animation-fill-mode: backwards;
+    }
+
+    @keyframes slideinmenu {
+        from {transform:translate(0, -100%)}
+        to {transform:translate(0)}
+}
+
+@keyframes slideleft {
+        from {transform:translate(-100%)}
+        to {transform:translate(0)}
+}
+@keyframes scalein{
+        from {transform:scale(1.1);opacity: 0;}
+        to {transform:scale(1);}
+}
+
+@keyframes fadein{
+        from {opacity: 0;}
+        to {opacity: 1;}
+}
+
+@keyframes widepageanimation{
+        from {opacity: 0;}
+        to {opacity: 1;}
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #newwidepageheader {
+    background-image: url(/assets/brand/background-animation/2.png);
+    background-size: 320%;
+    animation: none;
+  }
+}
+
+
+.navbar.active {
+    background: #fff !important;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+.nexusform {
+    border-radius: 5px;
+    outline: 0;
+    margin: 5px;
+    font-size: 110%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+</style>
+
+<script>
+    $(function () {
+    $(window).on('scroll', function () {
+        if ( $(window).scrollTop() > 10 ) {
+            $('.navbar').addClass('active');
+        } else {
+            $('.navbar').removeClass('active');
+        }
+    });
+});
+
+</script>

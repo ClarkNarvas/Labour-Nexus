@@ -2,7 +2,7 @@
 layout: nexuspage
 title: About
 permalink: /about/
-navigation_weight: 1
+navigation_weight: 3
 description: Labour Nexus is a campaign force to unite our party, create an environment for constructive discourse and bring Labour to Downing Street.
 ---
 

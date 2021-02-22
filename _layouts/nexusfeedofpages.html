@@ -1,35 +1,76 @@
 
 {% include header.html %}
-    <div class="container-fluid" style="margin-top: 25px;">
-    <div class="horizontal-center">
-        <h2 class="page-title">{{ page.title }}</h2>
-        <p class="bold" style="text-align: center;">{{ page.description }}</p>   
-    </div>
 
-    <div class="row">
-        {% for post in site.categories.people %}
-        <div class="col-lg-4">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="{{post.thumbnail}}" class="card-img" alt="{{post.title}}">
-                    </div>
-
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title bold">{{post.title}}</h5>
-                            <p class="card-text">{{post.description}}</p>
-                            <a class="btn btn-danger" href="{{post.url}}" role="button">Read more</a>
-                        </div>
+    <div id="latestfromnexusmovement">
+        <h3 style="text-align: center;color:#d84d4d;padding:0; margin: 0;margin-bottom: 10px;">{{ page.title }}</h3>
+        <p style="text-align: center;">{{page.description}}</p>
+        
+            <div class="container-fluid">
+                <div class="row">
+                        {% for post in site.posts %}
+                    <div class="col-lg-3">
+                    <div class="card" style="margin-top: 25px;">
+                        <a href="{{ post.url }}" style="text-decoration: none; color: black;font-size: 100%;">
+                      <img src="{{ post.thumbnail }}" class="card-img-top" alt="{{ post.thumbnail }}">
+                      <div class="card-body">
+                        <h5 class="card-title">{{post.title}}</h5>
+                        <p class="card-text">{{post.description}}</p>
+                        <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %d, %Y' }} |   {{ post.category }}</small></p>
+                      </div>
+                      </a>
                     </div>
                 </div>
-            </div>
+                    {% endfor %}     
+                </div>
+        
         </div>
-        {% endfor %}
-    </div>
+        </div>
+        </div>
+        
+        <style>
+            #latestfromnexusmovement {
+          min-height: 500px;
+          width: 100%;
+          background-color: #ffeeee;
+          padding: 25px;
+          margin-top: 35px;
+        }
+        
+        #latestfromnexusmovement h4 {
+          margin-bottom: 25px;
+          font-size: 160%;
+        }
+        
+        h5 {
+            font-family: BRANDFONT;
+            text-transform:uppercase;
+            color:#d84d4d;
+        }
+        
+        
+        .card {
+            border: 0;
+            transition: 0.2s linear;
+        }
+        
+        .card:hover {
+            background-color:#ffeeee;
+        }
+        
+        .card:hover .card-img-top {
+            opacity: 0.5;
+        }
+        
+        .card:active {
+            background-color:#d84d4d;
+        }
+        
+        .card:active h5, .card:active p, .card:active small.text-muted {
+            color: white !important;
+        }
+        
+        
+        </style>
 
 
-    </div>
-
-    {% include latestfromnexus.html %}
 {% include footer.html %}
