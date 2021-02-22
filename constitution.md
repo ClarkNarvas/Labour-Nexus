@@ -130,7 +130,7 @@ Equal opportunities
 9.4 The meeting of the persons who later approved this constitution on 14 December was the first AGM of the organisation and the election held then was valid.
 9.5 In accordance with any restrictions imposed by the standing orders, the AGM may vote to remove any member of the advisory board.
 
-Amendment and interpretation
+<h4>Amendment and interpretation</h4>
 
 10.1 By an ordinary motion, the executive committee may amend section 4, 5, 6 or 7, and provisions 8.1 and 8.2, of this constitution or introduce a comparable section defining an area of responsibility and a role, and make minor amendments to other sections if these become necessary to correct errors or resolve contradictions or omissions created by an earlier amendment.
 
