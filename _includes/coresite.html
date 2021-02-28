@@ -25,6 +25,22 @@
 <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 <meta name="theme-color" content="#d84d4d">
 
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta property="og:description" content="{{ page.description }}"/> 
+<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+<meta property="og:image" content="{% if page.image %}https://labournexus.org.uk{{ page.image }}{% else %}https://labournexus.org.uk/assets/brand/default-thumbnail.png{% endif %}"/>
+<meta property="og:image:width" content="1920"/>
+<meta property="og:image:height" content="1080"/>
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="https://labournexus.org.uk">
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{% if page.image %}https://labournexus.org.uk{{ page.image }}{% else %}https://labournexus.org.uk/assets/brand/default-thumbnail.png{% endif %}">
+
+
+</head>
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7K9446Y8J9"></script>
