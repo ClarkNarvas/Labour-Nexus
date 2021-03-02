@@ -1,7 +1,8 @@
 ---
 layout: nexuspagenocontainerblank
 title: Take Action
-description: Find ways to make your community Red with our tools to help you support your grassroots Labour campaigns 🌹
+description: Here are a few things you can do right now to support our cause. 🌹
+image: assets/webthumbnails/takeaction.png
 ---
 <div class="takeactionheader">
 <br>
