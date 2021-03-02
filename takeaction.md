@@ -2,7 +2,7 @@
 layout: nexuspagenocontainerblank
 title: Take Action
 description: Here are a few things you can do right now to support our cause. 🌹
-image: assets/webthumbnails/takeaction.png
+image: /assets/webthumbnails/takeaction.png
 ---
 <div class="takeactionheader">
 <br>
