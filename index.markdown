@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: nexushome2
-title: Home
+title: Vote Labour May 6th
 description: Labour Nexus is a campaign force to unite our party, create an environment for constructive discourse and bring Labour to Downing Street.
 ---
 
