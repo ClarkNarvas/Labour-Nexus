@@ -77,7 +77,7 @@ $('.container-fluid').scroll(function() {
     <div id="newwidepageheadertop">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(255, 101, 101, 0);color: white;">
-                <div class="container-fluid">
+
                 <a class="navbar-brand" href="/index.html"><img src="/assets/logo/white-symbol.png" width="auto" height="45" alt="Nexus Movement" style="padding-right: 25px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -86,6 +86,8 @@ $('.container-fluid').scroll(function() {
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto" style="color: white !important;opacity: 1 !important;">
                       
+                      
+                        
                       
                         
                       
@@ -138,14 +140,14 @@ $('.container-fluid').scroll(function() {
                     </form>
                 </nav>
         </header>
-    </div>
+ 
     <div id="newwidepageheaderbottom">
     <div class="row">
     <div class="col-lg-4">
-        <div class="widepagecontainer">
-        <div class="widepagebox" style="margin-left: 25px;">
-        <h1>IT'S UP TO US.</h1>
-        <p style="font-size: 150%;">We are building a movement to unite our party together, create an environment for peaceful discourse and win the next general election. We cannot do it without you. </p>
+        <div class="widepagecontainer" style="display: flex;height: 100%;">
+        <div class="widepagebox" style="margin-left: 25px;margin-top: auto; margin-bottom: auto;">
+        <h1>VOTE LABOUR ON MAY 6TH</h1>
+        <p style="font-size: 150%;"></p>
         </div>
     </div>
     </div>
@@ -205,10 +207,10 @@ $('.container-fluid').scroll(function() {
             rgba(255, 101, 101, 0),
             rgba(43, 43, 43, 0.8)
             ),
-            url("images/stock/oldclement.jpg");
+            url("images/stock/people-holding-signs.png");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         color: white;
         animation-name: widepageanimation;
         animation-fill-mode: backwards;
@@ -264,9 +266,19 @@ $('.container-fluid').scroll(function() {
 @media only screen and (max-width: 1000px) {
 
   #newwidepageheader {
-    background-image: url(/assets/brand/background-animation/2.png);
-    background-size: 450%;
+    background-image:         linear-gradient(
+            -90deg,
+            rgba(255, 101, 101, 0),
+            rgba(43, 43, 43, 0.8)
+            ),
+            url("images/stock/people-holding-signs.png") !important;
+    background-image: none;
+    background-size: cover;
     animation: none;
+  }
+
+  .widepagebox {
+      margin-left: 5px !important;
   }
 }
 
@@ -315,6 +327,7 @@ $('.container-fluid').scroll(function() {
 });
 
 </script>
+
 <div class="container-fluid">
 
 
@@ -329,14 +342,14 @@ $('.container-fluid').scroll(function() {
 <div id="localelectioncountdown" style="text-align: center;">
     <div class="container-fluid">
         <h5><span class="bold" style="color: white;">🗳 UK Elections 2021</span></h5>
-    <h3>There are <span id="days">a few</span> days left, <br>have you registered to vote?</h3>
+    <h3>There are <span id="days">a few</span> days left, <br>Help Labour win.</h3>
 
 
     <p>These elections will be crucial if we want to bring Labour back into power. Governments and councils across England, Scotland and Wales need you.</p>
     <div class="four-button-menu">
     <div class="row">
         <div class="col-lg-6">
-            <a class="four-button-menu" href="https://gov.uk/registertovote">🗳<br>REGISTER TO VOTE - IT ONLY TAKES 5 MINUTES</a>
+            <a class="four-button-menu" href="/takeaction">🌹✊<br>TAKE ACTION - BRING LABOUR TO POWER</a>
         </div>
 
         <div class="col-lg-6">
@@ -474,27 +487,7 @@ $('.container-fluid').scroll(function() {
   pointer-events: all;
 }
 </style>
-
-<div class="container-fluid" style="margin-top: 30px;margin-bottom: 30px;text-align: left;">
-    <div class="row">
-        <div class="col-lg-6" style="padding: 30px;">
-    <h2>The Nexus between our party is broken. <span class="active">Let's fix it.</span></h2>
-    <p><span class="bold">Toxic, divided parties do not win elections.</span> Instead, they discourage participation and lose the trust of the public. <br><br> It’s up to us if we want to end the blaming and the cynicism and unite the party to win.</p>
-    <a class="btn btn-danger" href="/about" role="button">About Our Movement</a>
-
-
-        </div>
-
-
-    <div class="col-lg-6" style="text-align: center;">
-        <img class="img-fluid" alt="Labour 203, Tory 365" src="/images/graphs/maxresdefault.jpg">
-        <p>2019 General Election Results</p>
-    </div>
-    </div>
-    <br><br>
-
-</div>
-    <div id="latestfromnexusmovement">
+<div id="latestfromnexusmovement">
 <h3 style="text-align: center;color:#d84d4d;padding:0; margin: 0;margin-bottom: 10px;">THE LATEST</h4>
 <p style="text-align: center;">Find out what's happening at Labour Nexus</p>
 
@@ -502,6 +495,19 @@ $('.container-fluid').scroll(function() {
 
         <div class="row">
                 
+            <div class="col-lg-3">
+            <div class="card">
+                <a href="/announcements/2021/04/01/defecting-to-alba-party.html" style="text-decoration: none; color: black;font-size: 100%;">
+              <img src="/images/stock/albanexusthumbnail.png" class="card-img-top" alt="/images/stock/albanexusthumbnail.png">
+              <div class="card-body">
+                <h5 class="card-title">Introducing Alba Nexus</h5>
+                <p class="card-text">The Labour Party is riddled with factionalism, why should we stay?</p>
+                <p class="card-text"><small class="text-muted">April 01, 2021 |   Announcements</small></p>
+              </div>
+            </div>
+              </a>
+            </div>
+            
             <div class="col-lg-3">
             <div class="card">
                 <a href="/video/2021/01/31/you-have-a-future-and-you-are-worthy.html" style="text-decoration: none; color: black;font-size: 100%;">
@@ -535,19 +541,6 @@ $('.container-fluid').scroll(function() {
               <div class="card-body">
                 <h5 class="card-title">A new COVID patient being admitted every thirty seconds. How did we get here?</h5>
                 <p class="card-text">Dither and delay does not work.</p>
-                <p class="card-text"><small class="text-muted">January 17, 2021 |   Video</small></p>
-              </div>
-            </div>
-              </a>
-            </div>
-            
-            <div class="col-lg-3">
-            <div class="card">
-                <a href="/video/2021/01/17/Labour-Achievements-Since-1997.html" style="text-decoration: none; color: black;font-size: 100%;">
-              <img src="/images/posts/video/LabourAchievements/thumbnail.png" class="card-img-top" alt="/images/posts/video/LabourAchievements/thumbnail.png">
-              <div class="card-body">
-                <h5 class="card-title">These are Labour's achievements since 1997</h5>
-                <p class="card-text">Labour has created real change in our country before, let's make it happen again. 🌹</p>
                 <p class="card-text"><small class="text-muted">January 17, 2021 |   Video</small></p>
               </div>
             </div>
@@ -607,8 +600,27 @@ h5 {
 
 
 </style>
+<div class="container-fluid" style="margin-top: 50px;margin-bottom: 50px;text-align: left;">
+    <div class="row">
+        <div class="col-lg-6" style="padding: 30px;">
+    <h2>The Nexus between our party is broken. <span class="active">Let's fix it.</span></h2>
+    <p><span class="bold">Toxic, divided parties do not win elections.</span> Instead, they discourage participation and lose the trust of the public. <br><br> It’s up to us if we want to end the blaming and the cynicism and unite the party to win.</p>
+    <a class="btn btn-danger" href="/about" role="button">About Our Movement</a>
+
+
+        </div>
+
+
+    <div class="col-lg-6" style="text-align: center;">
+        <img class="img-fluid" alt="Labour 203, Tory 365" src="/images/graphs/maxresdefault.jpg">
+        <p>2019 General Election Results</p>
+    </div>
+    </div>
+    <br><br>
+
+</div>
     <div class="container-fluid" style="margin-top: 25px;">
-    <div class="OurAims" style="min-height: 450px;background-color: #FFFFC1;border-radius: 20px;padding: 10px;">
+    <div class="OurAims" style="min-height: 450px;background-color: #FFFFC1;border-radius: 20px;padding: 10px;padding-top: 30px;padding-bottom: 30px;">
         <h2 style="text-align: center;padding-top: 25px;">Our Aims</h2>
         <div class="row" style="margin: 25px;">
             <div class="col-lg ouraimscard">
@@ -692,6 +704,8 @@ h5 {
     <div id="footer-bottom" style="text-align: center;">
       <a href="/index.html" id="footer-bottom">Home</a>
     
+    
+      
     
       
     
