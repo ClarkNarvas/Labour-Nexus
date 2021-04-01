@@ -14,7 +14,7 @@ image: /assets/webthumbnails/takeaction.png
 
         <div class="row justify-content-md-center" style="text-align: center;">
 
-            {% include components/specialised/takeactionbutton.html frozen="assets/icons/sign-frozen.png" animated="assets/icons/sign.gif" url="https://labournexus.org.uk/promotions/workshop5march" pagename="Volunteer with <br>Labour" %}
+            {% include components/specialised/takeactionbutton.html frozen="assets/icons/sign-frozen.png" animated="assets/icons/sign.gif" url="https://volunteer.labour.org.uk/" pagename="Volunteer with <br>Labour" %}
 
             {% include components/specialised/takeactionbutton.html frozen="assets/icons/campaignmat.png" animated="assets/icons/campaign-materials.gif" url="https://drive.google.com/drive/folders/14_AqtMviu5s15RsqMC5aX8HaSO-nhMXk?usp=sharing" pagename="Download campaign materials to share later" %}
 
