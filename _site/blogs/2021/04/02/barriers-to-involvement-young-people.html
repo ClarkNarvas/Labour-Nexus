@@ -77,7 +77,8 @@ $('.container-fluid').scroll(function() {
         <div class="container-fluid">
         <a class="navbar-brand" href="/index.html"><img src="/assets/logo/red-symbol.png" width="auto" height="45" alt="Nexus Movement" style="padding-right: 25px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <div class="menu-text">MENU</div>
+          <img src="/assets/icons/menu.svg" class="menu-icon-filter" style="width: 30px; height: 30px;"></img>
           </button>
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -144,7 +145,27 @@ $('.container-fluid').scroll(function() {
   <style>
     header-button {
       font-size: 500% !important;
-      
+
+    }
+
+    .navbar-toggler {
+      border: 0;
+      color: #d84d4d !important;
+      background-color: white !important;
+      border-radius: 5px;
+    }
+
+    .menu-icon {
+      font-size: 200%;
+      font-stretch:expanded;
+    }
+    .menu-text {
+      font-size: 50%;
+      font-family: BRANDFONT;
+    }
+
+    .menu-icon-filter {
+      filter: invert(40%) sepia(41%) saturate(930%) hue-rotate(312deg) brightness(96%) contrast(96%);
     }
   </style>
 <div class="container">
@@ -169,25 +190,25 @@ $('.container-fluid').scroll(function() {
 
 <p>The young people at our workshop identified the following issues with Young Labour that they felt were barriers to themselves or their friends getting more involved. We have typed them up to create this resource, which you are free to use and share if you credit us.</p>
 
-<p>Endless feuds — particularly local ones. Our workshop agreed that, separately to large-scale factional conflict, many activists had long-term personal grudges and rivalries with other activists, often based in past events. They felt this was a particular problem in CLPs.</p>
+<p><b>Endless feuds — particularly local ones.</b> Our workshop agreed that, separately to large-scale factional conflict, many activists had long-term personal grudges and rivalries with other activists, often based in past events. They felt this was a particular problem in CLPs.</p>
 
-<p>Antisemitism. Antisemitism in Labour, which everyone agreed continues to be a problem, was discussed as a barrier for Jewish people and for other potential members who did not wish to be associated with an antisemitic organisation.</p>
+<p><b>Antisemitism.</b> Antisemitism in Labour, which everyone agreed continues to be a problem, was discussed as a barrier for Jewish people and for other potential members who did not wish to be associated with an antisemitic organisation.</p>
 
-<p>Bland leadership. The young people at our workshop said that a barrier to getting their friends involved was that their friends had no idea what Keir Starmer stood for and saw him as “bland”, and as “uninspiring” relative to Jeremy Corbyn. One person also brought up the shadow cabinet and felt they had been too “quiet.”</p>
+<p><b>Bland leadership.</b> The young people at our workshop said that a barrier to getting their friends involved was that their friends had no idea what Keir Starmer stood for and saw him as “bland”, and as “uninspiring” relative to Jeremy Corbyn. One person also brought up the shadow cabinet and felt they had been too “quiet.”</p>
 
-<p>Corbyn “backstab”. Two people mentioned that their friends had said they were unwilling to get involved with Young Labour because Jeremy Corbyn had been “backstabbed” by Keir Starmer when he withdrew the whip in October 2020.</p>
+<p><b>Corbyn “backstab”.</b> Two people mentioned that their friends had said they were unwilling to get involved with Young Labour because Jeremy Corbyn had been “backstabbed” by Keir Starmer when he withdrew the whip in October 2020.</p>
 
-<p>Supporting Labour — which bit? One person pointed out that while “supporting the Tories” had a clear meaning, “supporting Labour” was likely to elicit the question “which bit of Labour?” No-one was sure what common values or policies united the various factions in the party and they agreed that made them feel that “supporting Labour” was vague.</p>
+<p><b>Supporting Labour — which bit?</b> One person pointed out that while “supporting the Tories” had a clear meaning, “supporting Labour” was likely to elicit the question “which bit of Labour?” No-one was sure what common values or policies united the various factions in the party and they agreed that made them feel that “supporting Labour” was vague.</p>
 
-<p>Time-consuming. Being an active Young Labour member was perceived as time-consuming and potentially incompatible with studying for exams or working full time.</p>
+<p><b>Time-consuming.</b> Being an active Young Labour member was perceived as time-consuming and potentially incompatible with studying for exams or working full time.</p>
 
-<p>Being involved requires politics knowledge. It was suggested that people might assume that to be an active member of Young Labour they had to be “politics nerds” with extensive knowledge and awareness of UK politics or Labour’s factions.</p>
+<p><b>Being involved requires politics knowledge.</b> It was suggested that people might assume that to be an active member of Young Labour they had to be “politics nerds” with extensive knowledge and awareness of UK politics or Labour’s factions.</p>
 
-<p>Internal debates too economic-focused. One person said that they felt debates within Labour and the main points of disagreement between factions all focused on economics, whereas Tories and Lib Dems were more interested in debating social policy. Debates about social policy, they said, were more accessible than debates about economic policy, because the latter required technical knowledge about economics.</p>
+<p><b>Internal debates too economic-focused.</b> One person said that they felt debates within Labour and the main points of disagreement between factions all focused on economics, whereas Tories and Lib Dems were more interested in debating social policy. Debates about social policy, they said, were more accessible than debates about economic policy, because the latter required technical knowledge about economics.</p>
 
-<p>Policies not known. There was a shared perception that no-one knew any Labour policies, which made it hard to campaign for the party or be passionate about it in government. Only one person in the group, the discussion facilitator, could name a Labour policy.</p>
+<p><b>Policies not known.</b> There was a shared perception that no-one knew any Labour policies, which made it hard to campaign for the party or be passionate about it in government. Only one person in the group, the discussion facilitator, could name a Labour policy.</p>
 
-<p>Twitter, WhatsApp, TikTok. The group felt that being properly involved in Young Labour required using either Twitter, WhatsApp or what they called “cringe political TikTok”, which meant that encouraging someone to get involved meant persuading them to use one of those platforms.</p>
+<p><b>Twitter, WhatsApp, TikTok.</b> The group felt that being properly involved in Young Labour required using either Twitter, WhatsApp or what they called “cringe political TikTok”, which meant that encouraging someone to get involved meant persuading them to use one of those platforms.</p>
 
 
 
@@ -303,6 +324,8 @@ h5 {
 .card:active h5, .card:active p, .card:active small.text-muted {
     color: white !important;
 }
+
+
 
 
 </style>

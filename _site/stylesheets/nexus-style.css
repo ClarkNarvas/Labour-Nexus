@@ -30,6 +30,11 @@ body {
     text-align: center;
 }
 
+@media (max-width: 800px) {
+  .page-title {
+    font-size: 170% !important;
+  }
+}
 .shadow {
    box-shadow: 5px 10px;
   }

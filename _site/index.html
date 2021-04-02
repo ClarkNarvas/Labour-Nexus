@@ -81,8 +81,9 @@ $('.container-fluid').scroll(function() {
 
                 <a class="navbar-brand" href="/index.html"><img src="/assets/logo/white-symbol.png" width="auto" height="45" alt="Nexus Movement" style="padding-right: 25px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+                    <div class="menu-text">MENU</div>
+                    <img src="/assets/icons/menu.svg" class="menu-icon-filter" style="width: 30px; height: 30px;"></img>
+                    </button>
                 
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto" style="color: white !important;opacity: 1 !important;">
@@ -238,6 +239,27 @@ $('.container-fluid').scroll(function() {
         animation-duration: 1s;
         animation-delay: 0.5s;
         animation-fill-mode: backwards;
+    }
+
+    
+    .navbar-toggler {
+      border: 0;
+      color: white !important;
+      background-color: #d84d4d !important;
+      border-radius: 5px;
+    }
+
+    .menu-icon {
+      font-size: 200%;
+      font-stretch:expanded;
+    }
+    .menu-text {
+      font-size: 50%;
+      font-family: BRANDFONT;
+    }
+
+    .menu-icon-filter {
+        filter: invert(100%) sepia(18%) saturate(0%) hue-rotate(233deg) brightness(110%) contrast(101%);
     }
 
     @keyframes slideinmenu {
@@ -598,6 +620,8 @@ h5 {
 .card:active h5, .card:active p, .card:active small.text-muted {
     color: white !important;
 }
+
+
 
 
 </style>
