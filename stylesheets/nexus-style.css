@@ -18,6 +18,11 @@ body {
 
 #CybotCookiebotDialogBodyContentTitle {
   font-family: BRANDFONT !important;
+  font-size: 200% !important;
+}
+
+#CybotCookiebotDialogBodyContentText {
+  font-family: LotaRegular !important;
 }
 ::selection {
   background: #d84d4d;
