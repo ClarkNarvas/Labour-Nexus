@@ -19,6 +19,7 @@ body {
 #CybotCookiebotDialogBodyContentTitle {
   font-family: BRANDFONT !important;
   font-size: 200% !important;
+  font-weight: 300;
 }
 
 #CybotCookiebotDialogBodyContentText {
