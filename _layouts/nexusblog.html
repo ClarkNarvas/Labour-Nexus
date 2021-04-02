@@ -4,7 +4,7 @@
     <div class="horizontal-center" style="text-align: center;margin-top: 25px;">
         <span class="categories" style="margin-bottom: 25px;">{{ page.categories }}</span>
         <h2 class="page-title" style="margin-top: 20px;">{{ page.title }}</h2>
-        <span class="date">📅 {{ page.fulldate }}</span>
+        <span class="date">📅 {{ page.date | date: "%b %d, %Y" }}</span>
     </div>
 </div>
     <div class="container-writing" style="margin-top: 25px;">

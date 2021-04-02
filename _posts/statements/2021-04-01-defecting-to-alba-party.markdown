@@ -3,7 +3,7 @@ layout: nexusblog
 category: Announcements
 title: Introducing Alba Nexus
 date:  2021-04-01 00:00:53 +0000
-fulldate: Sunday 17th January
+fulldate: Thursday, April 1st
 description: The Labour Party is riddled with factionalism, why should we stay?
 image: /images/stock/albanexusthumbnail.png
 author: Kerry Stapleton - Chair

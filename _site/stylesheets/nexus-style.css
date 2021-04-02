@@ -12,6 +12,11 @@ body {
   animation-duration: 2s;
 }
 
+::selection {
+  background: #d84d4d;
+  color: white;
+}
+
 @keyframes sitefade {
   from {opacity: 1; z-index: 100;}
   to {opacity: 0;z-index: 20;}
@@ -89,7 +94,21 @@ h1 {
 
   a {
     font-family: 'LotaRegular';
-    font-size: 120%;
+    color:#d84d4d;
+    text-decoration: underline dotted 1px;
+  }
+
+  a:active {
+    border:#923535 dotted 1px;
+  }
+
+  a:hover {
+    color:#923535;
+    text-decoration: none;
+  }
+
+  b {
+    font-family: 'LotaBold';
   }
 
   @media only screen and (max-width: 990px) {
@@ -246,6 +265,40 @@ a.nodecoration {
 
 }
 
+a.btn, a.btn-lg {
+  font-family: BRANDFONT;
+  text-transform: uppercase;
+  text-decoration: underline 1px solid !important;
+  box-shadow: 2px 3px #0000004f;
+  padding: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+a.btn-danger:hover, a.btn-labred:hover {
+  background-color: #ec5d5d;
+}
+
+a.btn-labred, a.btn-danger {
+  background-color:#d84d4d;
+  border: 3px solid #ac3d3d !important;
+}
+
+a.btn-gchange, a.btn-warning {
+  background-color:#ffffc1;
+  border: 3px solid #c0c07f !important;
+}
+
+a.btn-gchange:hover, a.btn-warning:hover {
+  background-color:#ffff90;
+}
+
+a.btn-gchange:active, a.btn-warning:active {
+  background-color:#b6b66e !important;
+}
+
 a.four-button-menu {
   background-color: #FFEEEE;
   width: 100%;
@@ -317,3 +370,33 @@ only screen and (max-width: 900px)  {
 
 
 }
+
+
+/** Components **/
+
+/** Navbar **/
+a.nav-link, a.btn {
+  text-decoration: none;
+}
+/**image component**/
+.image {
+  background-color: #ffeeee;;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 1000px) {
+  .image {
+      transform: scale(1.15);
+      margin-top: 55px;
+      margin-bottom: 55px;
+  }
+}
+
+.image-bottom {
+  padding: 5px;
+}
+
+
