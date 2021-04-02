@@ -270,7 +270,7 @@ a.nodecoration {
 
 }
 
-a.btn, a.btn-lg {
+.btn, .btn-lg {
   font-family: BRANDFONT;
   text-transform: uppercase;
   text-decoration: underline 1px solid !important;
@@ -282,25 +282,25 @@ a.btn, a.btn-lg {
   padding-bottom: 3px;
 }
 
-a.btn-danger:hover, a.btn-labred:hover {
+.btn-danger:hover, .btn-labred:hover {
   background-color: #ec5d5d;
 }
 
-a.btn-labred, a.btn-danger {
+.btn-labred, .btn-danger {
   background-color:#d84d4d;
   border: 3px solid #ac3d3d !important;
 }
 
-a.btn-gchange, a.btn-warning {
+.btn-gchange, .btn-warning {
   background-color:#ffffc1;
   border: 3px solid #c0c07f !important;
 }
 
-a.btn-gchange:hover, a.btn-warning:hover {
+.btn-gchange:hover, .btn-warning:hover {
   background-color:#ffff90;
 }
 
-a.btn-gchange:active, a.btn-warning:active {
+.btn-gchange:active, .btn-warning:active {
   background-color:#b6b66e !important;
 }
 
