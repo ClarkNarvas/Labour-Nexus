@@ -3,7 +3,7 @@ layout: nexusblog
 category: Issues
 title: Should Labour be pro business? - A breakdown on the issue.
 date:  2021-04-05 00:00:53 +0000
-description: In a workshop, we discussed why Labour-supporting young people, including Young Labour members who are not very active in the party and its networks, do not get more involved.
+description: In recent weeks, there has been much debate over Keir Starmer’s ‘pro-business’ stance. Here, the arguments for and against such a stance will be discussed. 
 author: Conal Land
 image: /images/stock/sky-scraper.jpg
 ---
