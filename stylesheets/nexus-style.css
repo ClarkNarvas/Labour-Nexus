@@ -12,6 +12,13 @@ body {
   animation-duration: 2s;
 }
 
+#CybotCookiebotDialogBody {
+  font-family: LotaRegular !important;
+}
+
+#CybotCookiebotDialogBodyContentTitle {
+  font-family: BRANDFONT !important;
+}
 ::selection {
   background: #d84d4d;
   color: white;
