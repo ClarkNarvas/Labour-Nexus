@@ -5,6 +5,7 @@ title: What barriers do young people feel there are to getting involved with You
 date:  2021-04-02 00:00:53 +0000
 description: In a workshop, we discussed why Labour-supporting young people, including Young Labour members who are not very active in the party and its networks, do not get more involved.
 image: /images/stock/young-people.jpeg
+author: Kerry Stapleton
 ---
 
 

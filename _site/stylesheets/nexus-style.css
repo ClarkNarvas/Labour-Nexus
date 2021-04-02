@@ -12,6 +12,19 @@ body {
   animation-duration: 2s;
 }
 
+#CybotCookiebotDialogBody {
+  font-family: LotaRegular !important;
+}
+
+h2#CybotCookiebotDialogBodyContentTitle {
+  font-family: BRANDFONT !important;
+  font-size: 100% !important;
+  font-weight: 300;
+}
+
+#CybotCookiebotDialogBodyContentText {
+  font-family: LotaRegular !important;
+}
 ::selection {
   background: #d84d4d;
   color: white;
@@ -223,7 +236,7 @@ a.nodecoration {
 
 }
 
-.date {
+.date, .author {
   font-size: 120%;
   display: block;
   text-align: center;
