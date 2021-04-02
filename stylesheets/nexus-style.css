@@ -16,9 +16,9 @@ body {
   font-family: LotaRegular !important;
 }
 
-#CybotCookiebotDialogBodyContentTitle {
+h2#CybotCookiebotDialogBodyContentTitle {
   font-family: BRANDFONT !important;
-  font-size: 200% !important;
+  font-size: 100% !important;
   font-weight: 300;
 }
 
