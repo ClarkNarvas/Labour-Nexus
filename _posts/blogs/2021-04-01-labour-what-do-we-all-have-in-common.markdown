@@ -1,0 +1,72 @@
+---
+layout: nexusblog
+category: Blogs
+title: "Labour: What do we all have in common?"
+date:  2021-04-14 00:00:53 +0000
+description: "Let’s clear out the insipid buzzwords that every party claims, put the values that we all share front and centre, and let’s take them into the next election as a united party with a clear vision."
+image: /images/posts/allhaveincommon/thumbnail.png
+author: Kerry Stapleton
+---
+
+
+{% include components/blogs/images.html src="/images/posts/allhaveincommon/thumbnail.png" alt="Tony Blair at Downing Street on the left, Keir Starmer's New Leadership speech in the center, Jeremy Corbyn on the right" %}
+
+Did you know that Labour, the Tories, the SNP, the Liberal Democrats, the Greens and Plaid Cymru all say that they support, in these exact words, a [“fairer society”?](https://www.youtube.com/playlist?list=PL7AdbhgdgEN7mJKaEP_5IN-RxmjqPNpOW)
+
+Indeed, these opposing political parties also agree that we need investment in the NHS, policies to create equality of opportunity, support for small businesses, measures to end child poverty, measures to end regional inequality, more police on the streets, devolution, social mobility, better schools, investment in the railways, anti-racism legislation, and measures to tackle the climate crisis, including an expansion of green energy.
+
+Of course, the reason why there seems to be so much overlap is because these are the clichés of British politics — the buzzwords that frame the debate and form the basic checklist that governmental success or failure is measured against. The fact that all the major parties talk about them does not actually mean those parties have much in common with one another. Though the shared buzzwords make it possible to argue that all six main parties are really on the same side and just disagree about how to achieve their shared goals, this interpretation would be hopelessly shallow and naïve. This is because, beneath the surface, there really is little that unites them.
+
+Some people believe that the Labour Party’s internal politics are similar. ‘Thatcherite neoliberals’ and ‘hard-left cranks’ might share common buzzwords and an enmity to the Tories, the argument goes, but beneath the surface their beliefs are basically incompatible. Those who make that argument believe that the idea that all Labour members are allies is just as shallow and naïve as the idea that the Tories and the Greens are really on the same side because both talk about creating a “fairer society” and building more wind turbines.
+
+This perception is not limited to factionalist hardliners. Labour Nexus, a small sect of anti-factionalism campaigners who push for more co-operation and good-faith debate, [recently ran a workshop with Young Labour members which found that “no-one was sure what common values or policies united the various factions”](https://twitter.com/kw_stapleton_/status/1367916364946636802?s=20), to the point that everyone at the workshop agreed that ‘I support Labour’ felt like a meaningless statement.
+
+It is sad that so many members believe that nothing unites the party’s traditions, because it is simply not true. The areas of agreement between the Labour factions are far more profound than the superficial overlaps between Labour and other political parties. It is these shared perspectives and values that make it possible that members from different factions could trust each other’s intentions and debate in good faith.
+
+Looking at political beliefs, rather than organisations and alliances, the Labour Party is a coalition between five main groups:
+
+Social democrats who support the Third Way pursued under [New Labour](https://en.wikipedia.org/wiki/New_Labour), believing that capitalism can be reformed, and who focus on social equality and multiculturalism;
+
+* Democratic socialists who want the party to focus on supporting working people’s struggle against the ruling class and who believe socialism can be directly established by a Labour government;
+
+* Social democrats who reject both the Third Way and directly establishing socialism, instead viewing social democracy as a road to socialism through gradual reforms, and who tend to emphasise the importance of compromise;
+
+* Left-wingers who focus particularly on social justice issues and the climate emergency, often inspired by radical politics in America, and who have a distinctive cultural libertarian stance; and
+
+* Self-described social conservatives, whose economic and social views are based around building strong local communities, supporting their inborn social values, and giving more power to local and regional structures.
+
+For convenience, call those who take these stances ‘New Labour’, ‘democratic socialists’, the ‘soft left’, the ‘social justice left’ and ‘Blue Labour’ respectively.
+
+All five agree that the economy should serve the community as a whole, not anyone’s private interests. For New Labour, the way to achieve this is through well-regulated private companies, though with the state managing basic provision like health and education. Democratic socialists share the same goal as New Labour but argue that achieving it requires universal common ownership of enterprise. The soft left agree with New Labour that regulated private companies are appropriate for most goods and services, but they believe that public services like utilities and transport should join health and education in the public sector, and some view creative regulation of private companies as a step towards common ownership in the long term.
+
+Given that all members and factions share the goal of the economy serving the community, not private interests, there is scope for fruitful debate and compromise between the positions favoured by each ideological strand. For instance, policies like John McDonnell’s plan to put workers on boards or the Co-operative Party’s wish to double the size of the co-op sector might be a way to satisfy those who favour regulated private companies and those who prefer common ownership.
+
+In the Labour worldview, an economy that serves the community is incompatible with one that serves private interests — it cannot do both. The slogan is “the many, not the few”, rather than ‘the many and the few’. It is certainly not ‘the few, trickling down to the many’. That phrase “the many, not the few” was added to the party’s constitution in 1995 when Tony Blair and the modernisers changed the wording of Clause IV. This foundational statement of New Labour’s beliefs was later taken up by democratic socialists and the social justice left under the leadership of Jeremy Corbyn. It should be a slogan that unites the party, not one that divides it.
+
+Another point of agreement in Labour is that Britain’s foreign policy should be driven by ideology and values, not merely expediency or ‘strategic objectives’. For the social justice left and most democratic socialists, [it means a Labour government must take an explicitly anti-imperialist stance, supporting oppressed peoples against Western aggression](https://labour.org.uk/press/labour-put-social-justice-heart-everything-labour-government-will-new-social-justice-commission/). For New Labour, it means Britain should align itself with the United States and the EU, and intervene abroad to protect the liberal rules-based international order or liberate people who are living under dictators.
+
+On the surface, these are markedly different positions, and as the bitter arguments over the Iraq War show, many members see them as irreconcilable. But that shared commitment to a foreign policy driven by principles, not self-interest or pragmatism, means there is common ground between Corbynite anti-imperialism and Blairite Atlanticism. Good-faith debates between these camps about how best to use foreign policy to protect democracy, equality and human rights are possible because there is a shared Labour view that this is what foreign policy is for.
+
+In contrast, there would be no point debating it with the Tories, because their only focus is on strategic interests; building power and soliciting investment. Theresa May, the last Prime Minister who had the opportunity to pursue a foreign policy not defined by COVID, spent time sucking up to both Donald Trump and Xi Jinping, a racist liar and a genocidal autocrat. She saw no need to confront either man about his behaviour, nor did she accept that there was anything contradictory about simultaneously aligning Britain with two world powers that were locked in a trade war.
+
+The Liberal Democrats attempted a hilarious rhetorical backflip in their 2019 manifesto, claiming that their foreign policy would support “our strategic international objectives on gender equality, climate change and the environment, human rights”, etc. How can a country possibly have ‘strategic objectives’ on human rights. What does that even mean? As per usual, they have started from a Tory base — the assumption that foreign policy should be based on national self-interest and strategic objectives — and tried to build across to something resembling Labour values. As for the SNP’s foreign policy plan, with its emphasis on the Nordic countries, the Arctic and the EU, their international approach is merely an extension of the regionalist agenda they push at home.
+
+Of course, everyone knows that the SNP are regionalists. Scottish nationalism is the SNP’s main ‘thing’ in the eyes of the public. Labour’s is probably better investment in public services. Everyone knows that Labour would spend more on schools, right? But actually, it goes deeper than that. Labour is the only party that believes the welfare state is not about providing a minimum safety net. For Labour, it is about improving the lives of everyone, both working class and middle-class, so that no-one ever needs such a safety net. The welfare state should be a regular fixture in everyone’s lives.
+
+The NHS has evolved from a partisan project of the left that the Tories opposed into a cliché of British politics that every party claims to support, and this is because the Labour Party is right: welfare for all is a mark of a civilised society. Blue Labour’s belief in strong civic institutions and social solidarity, [New Labour’s investment in public libraries and children’s centres](https://www.theguardian.com/politics/2001/may/23/labour.tonyblair), and the soft left’s calls for more statutory maternity pay all reflect a deep shared commitment to welfare for the many, not the few — welfare not just for those who are struggling, but for those who are doing well but want to do better.
+
+There is a school of thought that says Labour’s ‘centrist’ wing, meaning [New Labour](https://en.wikipedia.org/wiki/New_Labour) and sometimes the soft left, are more like social liberals than socialists. This is emphatically not true. Social liberals, the ostensibly centre-left wing of the Liberal Democrats, agree with John Locke that “the end of law is not to abolish or restrain”, and they are accordingly very cynical about the power of the state to improve people’s lives directly. Social democrats, who are part of the socialist movement, are not.
+
+[New Labour](https://en.wikipedia.org/wiki/New_Labour) and the soft left want to abolish poverty; democratic socialists want to abolish excessive wealth and capitalism; the social justice left want to abolish racism, homophobia, etc; Blue Labour want to abolish commodification — but social liberals do not believe the state can abolish any of these things at all. It is an insipid ideology that is only similar to the Labour right in the most empty, superficial way.
+
+Perhaps most importantly, Labour is about supporting hard-working people’s right to reap what they have sown. Many democratic socialists embrace a Marxist analysis of profit and alienation, and argue that workers should be directly entitled to the value they create whilst working. The social justice left point out that people of colour and disabled people often have to work the hardest and emphasise that they must not be excluded from the rewards. Blue Labour have a particular focus on hard work as a social good, and as a source of meaning for the individual. The soft left sees hard-working people as held back by a system that is rigged against them, and want to level the playing field. New Labour emphasise that both the working class and the middle class work hard, and so both classes deserve better in exchange.
+
+This is not simply an extension of the right to equality of opportunity, which is something that everyone in British politics claims to back. It is about the common people’s right to the riches their work has created. Everyone in Labour, from Marxists to Third Way social democrats, is united by their commitment to the principle that everyone is entitled to the full fruits of their labour.
+
+Since its foundation, Labour has been a broad church. It is not ideologically uniform and unity will never mean all of its members agreeing on the same policies — and nor should it. The party should be a coalition in which campaign groups, members, MPs, councillors, activists and academics feel able to openly disagree about policies and electoral tactics without that stopping them being allies. Everyone in Labour is on the same side, and diversity of opinion is our strength.
+
+Productive pluralism is only possible if the ties that bind us together are not merely bland and superficial. If nothing unites Labour beyond a vague commitment to ‘everyone having a good standard of living’ or ‘no person having to face poverty or discrimination’, then ultimately the party stands for nothing more than better management; doing what every other party says they would do, but doing it more effectively.
+
+Fortunately, Labour is not condemned to this fate, because its differing ideological strands have distinctive and specific shared perspectives. Finding common ground for debate is not enough to fix factionalism — but it is an important place to start.
+
+Our party is more than just ‘not the Tories’ and there really are things that we all have in common. That is a starting place not only for ending factionalism but for building a positive, compelling policy programme. That means it’s about time we reminded ourselves of it. Let’s clear out the insipid buzzwords that every party claims, put the values that we all share front and centre, and let’s take them into the next election as a united party with a clear vision.
