@@ -25,7 +25,7 @@ It is sad that so many members believe that nothing unites the party’s traditi
 
 Looking at political beliefs, rather than organisations and alliances, the Labour Party is a coalition between five main groups:
 
-* Social democrats who support the Third Way pursued under [New Labour](https://en.wikipedia.org/wiki/New_Labour), believing that capitalism can be reformed, and who focus on social equality and multiculturalism;
+* Social democrats who support the Third Way pursued under New Labour, believing that capitalism can be reformed, and who focus on social equality and multiculturalism;
 
 * Democratic socialists who want the party to focus on supporting working people’s struggle against the ruling class and who believe socialism can be directly established by a Labour government;
 
