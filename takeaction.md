@@ -19,7 +19,7 @@ image: /assets/webthumbnails/takeaction.png
 
             {% include components/specialised/takeactionbutton.html frozen="assets/icons/campaignmat.png" animated="assets/icons/campaign-materials.gif" url="https://drive.google.com/drive/folders/14_AqtMviu5s15RsqMC5aX8HaSO-nhMXk?usp=sharing" pagename="Campaign materials to share on social media" %}
 
-            {% include components/specialised/takeactionbutton.html frozen="assets/icons/ballot-mail-frozen.png" animated="assets/icons/ballot-mail.gif" url="/latest.html" pagename="Register for a <br> postal vote" %}
+<!--            {% include components/specialised/takeactionbutton.html frozen="assets/icons/ballot-mail-frozen.png" animated="assets/icons/ballot-mail.gif" url="/latest.html" pagename="Register for a <br> postal vote" %} -->
 
             {% include components/specialised/takeactionbutton.html frozen="assets/icons/news-frozen.png" animated="assets/icons/thelatest.gif" url="/latest.html" pagename="Find out the<br> latest news" %}
 
