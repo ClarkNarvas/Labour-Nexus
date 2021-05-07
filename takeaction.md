@@ -9,7 +9,7 @@ navigation_weight: 1
 
 <div class="takeactionheader">
 <div class="takeactionheader-header" style="min-height:20vh">
-{% include components/redalerttakeaction.html %}
+<h2>TAKE ACTION</h2>
 </div> 
 
 
