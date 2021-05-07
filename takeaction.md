@@ -9,7 +9,7 @@ navigation_weight: 1
 
 <div class="takeactionheader">
 <div class="takeactionheader-header" style="min-height:20vh">
-<h2>TAKE ACTION</h2>
+<h2 style="text-align: center;">TAKE ACTION</h2>
 </div> 
 
 
