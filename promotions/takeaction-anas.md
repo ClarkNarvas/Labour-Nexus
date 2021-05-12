@@ -1,7 +1,9 @@
 ---
-layout: nexusredirect
+layout: nexusdarkpage
 title: Let's give Scotland a government with the people's priorities.
 description: Click here 🌹 
 image: /assets/webthumbnails/help-anas.png
 redirecturl: https://labournexus.org.uk/takeaction
 ---
+
+This promotion has ended.
