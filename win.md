@@ -1,5 +1,5 @@
 ---
-layout: nexusredirect
+layout: nexusdarkpage
 title: Help Labour Win
 description: Click here 🌹
 image: /assets/webthumbnails/takeaction.png
