@@ -115,6 +115,12 @@ $('.container-fluid').scroll(function() {
                 
               
                 
+              <li><a class="nav-link" href="/takeaction.html"  class="active" >
+                Take Action
+              </a></li>
+              
+              
+                
               <li><a class="nav-link" href="/latest.html" >
                 Latest
               </a></li>
@@ -123,12 +129,6 @@ $('.container-fluid').scroll(function() {
                 
               <li><a class="nav-link" href="/about/" >
                 About
-              </a></li>
-              
-              
-                
-              <li><a class="nav-link" href="/takeaction.html"  class="active" >
-                Take Action
               </a></li>
               
               
@@ -177,51 +177,7 @@ $('.container-fluid').scroll(function() {
 
 <div class="takeactionheader">
 <div class="takeactionheader-header" style="min-height:20vh">
-<div id="localelectioncountdown" style="text-align: center;">
-    <div class="container-fluid">
-        <h5><span class="bold" style="color: white;">🗳 UK Elections 2021</span></h5>
-    <h3>There are <span id="days">a few</span> days left, <br />Help Labour win.</h3>
-    </div>
-</div>
-<style>
-#localelectioncountdown {
-    background-color: #d84d4d;
-    height: auto;
-    color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-</style>
-
-<script>
-    // The data/time we want to countdown to
-    var countDownDate = new Date("May 6, 2021 22:00:00").getTime();
-
-    // Run myfunc every second
-    var myfunc = setInterval(function() {
-
-    var now = new Date().getTime();
-    var timeleft = countDownDate - now;
-    
-
-    // Calculating the days, hours, minutes and seconds left
-    var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-    // Result is output to the specific element
-    document.getElementById("days").innerHTML = days
-        
-    // Display the message when countdown is over
-    if (timeleft < 0) {
-        clearInterval(myfunc);
-        document.getElementById("days").innerHTML
-    }
-    }, 1000);
-
-    if (typeof innerHTML !== 'undefined') {
-  // Now we know that foo is defined, we are good to go.
-}
-    </script>
-
-
+<h2 style="text-align: center;">TAKE ACTION</h2>
 </div> 
 
 
@@ -310,6 +266,12 @@ $('.container-fluid').scroll(function() {
       
     
       
+    <a id="footer-bottom" href="/takeaction.html"  class="active" >
+      Take Action
+    </a>
+    
+    
+      
     <a id="footer-bottom" href="/latest.html" >
       Latest
     </a>
@@ -318,12 +280,6 @@ $('.container-fluid').scroll(function() {
       
     <a id="footer-bottom" href="/about/" >
       About
-    </a>
-    
-    
-      
-    <a id="footer-bottom" href="/takeaction.html"  class="active" >
-      Take Action
     </a>
     
     
