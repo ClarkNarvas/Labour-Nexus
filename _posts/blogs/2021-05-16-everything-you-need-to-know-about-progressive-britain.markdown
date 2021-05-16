@@ -2,7 +2,7 @@
 layout: nexusblog
 category: Blogs
 title: Everything you need to know about Progressive Britain, the latest Labour faction
-date:  2021-04-16 00:00:53 +0000
+date:  2021-05-16 00:00:53 +0000
 description: Labour has a new faction, Progressive Britain, launched at an online conference at ten o’clock this morning.
 image: /images/posts/progressivebritain/progressive britain explaine.png
 author: Kerry Stapleton
