@@ -1,5 +1,5 @@
 body {
-  font-family: 'LotaRegular';
+  font-family: 'Archivo';
 }
 
 .site-cover {
@@ -13,7 +13,7 @@ body {
 }
 
 #CybotCookiebotDialogBody {
-  font-family: LotaRegular !important;
+  font-family: Archivo !important;
 }
 
 h2#CybotCookiebotDialogBodyContentTitle {
@@ -23,7 +23,7 @@ h2#CybotCookiebotDialogBodyContentTitle {
 }
 
 #CybotCookiebotDialogBodyContentText {
-  font-family: LotaRegular !important;
+  font-family: Archivo !important;
 }
 ::selection {
   background: #d84d4d;
@@ -52,23 +52,14 @@ h2#CybotCookiebotDialogBodyContentTitle {
    box-shadow: 5px 10px;
   }
 
-@font-face {
-    font-family: 'LotaRegular';
-    src: url('../assets/fonts/Lota/Los Andes  Lota Grotesque Alt 3 Regular.otf');
-    }
-    
-    
-    @font-face {
-    font-family: 'LotaBold';
-    src: url('../assets/fonts/Lota/Los Andes  Lota Grotesque Alt 3 Semi Bold.otf');
-    }
+
     
     @font-face {
     font-family: 'BRANDFONT';
     src: url('../assets/fonts/Traffic/traffic06.ttf');;
     }
 
-  
+
 
 h1 {
     font-size: 450%;
@@ -100,7 +91,7 @@ h1 {
   }
 
   p {
-    font-family: 'LotaRegular';
+    font-family: 'Archivo';
     font-size: 120%;
   }
   
@@ -111,7 +102,7 @@ h1 {
   }
 
   a {
-    font-family: 'LotaRegular';
+    font-family: 'Archivo';
     color:#d84d4d;
     text-decoration: underline dotted 1px;
   }
@@ -126,7 +117,8 @@ h1 {
   }
 
   b {
-    font-family: 'LotaBold';
+    font-family: 'Archivo';
+    font-weight: 700 !important;
   }
 
   @media only screen and (max-width: 990px) {
