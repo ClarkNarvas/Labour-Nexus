@@ -9,7 +9,7 @@ description: If we’re going to properly learn the lessons of our defeats in 20
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/72VwzXkiW34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Speakers TBA.
 
-People from every Labour tradition is coming together at our rally on June 12th - Be part of it. 
+People from every Labour tradition are coming together at our rally on June 12th - Be part of it. 
 
 Watch it live on YouTube and Twitter.
 
