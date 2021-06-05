@@ -1,0 +1,163 @@
+<div id="newwidepageheader" class="container-fluid">
+    <div id="newwidepageheadertop">
+        {% include components/specialised/transparentmenu.html %}
+ 
+    <div id="newwidepageheaderbottom">
+    <div class="container">
+
+        <div class="widepagecontainer" style="display: flex;height: 100%;">
+        <div class="widepagebox" style="margin-top: auto; margin-bottom: auto;text-align: center;margin-left: auto; margin-right: auto;">
+        <span class="categories">Rally</span>
+        <h3>It’s Up To Us: Why, more than ever, we need to unite Labour. </h3>
+        <p style="font-size: 150%;">People from every Labour tradition are coming together at our rally on June 12th - Be part of it.</p>
+        <a href="/uptous" class="btn btn-danger" style="margin-bottom: 5px;">LEARN MORE ℹ</a>
+        <a href="https://bit.ly/3cmcjmp" class="btn btn-warning"style="margin-bottom: 5px;">GET A REMINDER 🔔</a>
+        </div>
+    </div>
+    </div>
+
+ 
+    </div>
+    </div>
+</div>
+</div>
+
+<style>
+    #newwidepageheaderbottom {
+        display: flex;
+        min-height: 70vh;
+        align-items: center;
+        padding-bottom: 70px;
+        }
+
+    #newwidepageheader{
+          background: rgb(217,49,49);
+background: linear-gradient(90deg, rgba(217,49,49,1) 0%, rgba(255,101,101,1) 0%, rgba(216,77,77,1) 100%); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        animation-name: widepageanimation;
+        animation-fill-mode: backwards;
+        animation-duration: 0.5s;
+    }
+
+
+
+    
+    #mc_embed_signup {
+        animation-name: scalein;
+        animation-duration: 0.5s;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+    }
+    .widepagebox {
+        animation-name: fadein;
+        animation-duration: 1s;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+    }
+    .navbar {
+        animation-name: slideinmenu;
+        animation-duration: 1s;
+        animation-delay: 0.5s;
+        animation-fill-mode: backwards;
+    }
+
+    
+    .navbar-toggler {
+      border: 0;
+      color: white !important;
+      background-color: #d84d4d !important;
+      border-radius: 5px;
+    }
+
+    .menu-icon {
+      font-size: 200%;
+      font-stretch:expanded;
+    }
+    .menu-text {
+      font-size: 50%;
+      font-family: BRANDFONT;
+    }
+
+    .menu-icon-filter {
+        filter: invert(100%) sepia(18%) saturate(0%) hue-rotate(233deg) brightness(110%) contrast(101%);
+    }
+
+    @keyframes slideinmenu {
+        from {transform:translate(0, -100%)}
+        to {transform:translate(0)}
+}
+
+@keyframes slideleft {
+        from {transform:translate(-100%)}
+        to {transform:translate(0)}
+}
+@keyframes scalein{
+        from {transform:scale(1.1);opacity: 0;}
+        to {transform:scale(1);}
+}
+
+@keyframes fadein{
+        from {opacity: 0;}
+        to {opacity: 1;}
+}
+
+@keyframes widepageanimation{
+        from {opacity: 0;}
+        to {opacity: 1;}
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .widepagebox {
+      margin-left: 5px !important;
+  }
+}
+
+
+.navbar.active {
+    background: #fff !important;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+.nexusform {
+    border-radius: 5px;
+    outline: 0;
+    margin: 5px;
+    font-size: 110%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+</style>
+
+<script>
+    $(function () {
+    $(window).on('scroll', function () {
+        if ( $(window).scrollTop() > 10 ) {
+            $('.navbar').addClass('active');
+        } else {
+            $('.navbar').removeClass('active');
+        }
+    });
+});
+
+</script>

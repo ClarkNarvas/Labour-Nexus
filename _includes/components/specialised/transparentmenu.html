@@ -1,0 +1,26 @@
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(255, 101, 101, 0);color: white;">
+
+                <a class="navbar-brand" href="/index.html"><img src="/assets/logo/white-symbol.png" width="auto" height="45" alt="Nexus Movement" style="padding-right: 25px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu-text">MENU</div>
+                    <img src="/assets/icons/menu.svg" class="menu-icon-filter" style="width: 30px; height: 30px;"></img>
+                    </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" style="color: white !important;opacity: 1 !important;">
+                      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
+                      {% for p in navigation_pages %}
+                        {% if p.navigation_weight %}
+                      <li><a class="nav-link" style="opacity: 1 !important;" href="{{ p.url }}" {% if p.url == page.url %} class="active" {% endif %}>
+                        {{ p.title }}
+                      </a></li>
+                      {% endif %}
+                      {% endfor %}
+                    </ul>
+                    <form class="form-inline">
+                      <a class="btn-lg btn-danger" href="/joinus" style="font-family:brandfont;">JOIN US</a>
+            
+                    </form>
+                </nav>
+        </header>
