@@ -1,0 +1,140 @@
+
+
+{% include coresite.html %}
+
+<div class="header" style="position: fixed;z-index: 10000000;">
+    <img src="/assets/logo/smalllogo720.png" style="height: auto; width: 120px;z-index: 900000000 !important;margin: 30px;"><br>
+</div>
+
+<style>
+    body {
+
+        color: white;
+    }
+
+    #corecontent {
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+
+    #two {
+        background-color: #322525;
+        padding: 20px;
+    }
+
+    .content {
+                background-image: url(images/promotions/rally/background.png);
+        background-size: cover;
+        min-height: 80vh;
+    }
+
+    @media (max-width: 1100px) {
+        #uptousheaderdesktop {
+            display: none !important;
+        }
+
+        #uptousheadermobile {
+            display: block !important;
+        }
+
+        .header {
+            display: none !important;
+        }
+    }
+
+    #uptousheadermobile {
+        display: none;
+        background-color: #423232;
+        background-image: url(images/promotions/rally/background.png);
+    }
+
+
+
+
+
+
+  
+</style>
+
+<style>
+      @keyframes fade {
+        0% {opacity: 10;z-index: 90000000;}
+        50% {opacity: 0;z-index: 90000000;}
+        100% {z-index: -900000 !important;display: none !important;;opacity: 0;width: 0% !important;}
+}
+</style>
+
+<div class="sitecover" style="
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #322525;
+        animation-name: fade;
+        animation-duration: 0.5s;
+        animation-delay: 0.6s;
+        animation-fill-mode: both !important;
+">
+</div>
+
+<div id="uptousheaderdesktop">
+<div class="content container-fluid">
+    <div class="row">
+        <div class="col-lg-5">
+            <img src="/images/promotions/rally/globethingside.png" style="width: auto; height: 80vh;">
+        </div>
+
+        <div class="col-lg-5" style="display: flex;">
+            <div id="corecontent">
+                    
+                    <b>Join us at our rally on June 19th</b>
+                    <h2 style="padding-top: 10px;">IT'S UP TO US</h2>
+                    <p style="font-size: 150%;">More than ever, we need to unite Labour.</p>
+                    <p>Join us for a virtual evening with talks from speakers, quizzes and a celebration of Labour Party heritage.</p>
+                    <a class="btn btn-danger" href="#two">SIGN UP >></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="uptousheadermobile">
+    <div class="container" style="text-align: center;padding-top: 25px;padding-left: 5px; padding-right: 5px;">
+        <img src="/assets/logo/smalllogo720.png" style="height: auto; width: 120px;margin: 30px;"><br>
+        <b>Join us at our rally on June 19th</b>
+        <h2 style="padding-top: 10px;">IT'S UP TO US</h2>
+        <p style="font-size: 150%;">More than ever, we need to unite Labour.</p>
+        <p>Join us for a virtual evening with talks from speakers, quizzes and a celebration of Labour Party heritage.</p>
+        <a class="btn btn-danger" href="#two">SIGN UP >></a>
+    </div>
+
+    <img src="/images/promotions/rally/globething.png" style="height: auto; width: 100%;margin-top: 25px;">
+</div>
+<div id="two">
+
+<div class="container">
+<div id="eventbrite-widget-container-158875692473"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '158875692473',
+        iframeContainerId: 'eventbrite-widget-container-158875692473',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+
+</div>
+</div>
+
+{% include footer.html %}
