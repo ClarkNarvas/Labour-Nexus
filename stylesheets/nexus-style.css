@@ -341,25 +341,6 @@ a.four-button-menu:active {
   border-radius: 5px;
 }
 
-@keyframes brandpattern{
-  0% {background-image:
-      url("/assets/brand/background-animation/1.png");}
-  20% {background-image:
-    url("/assets/brand/background-animation/2.png");}
-
-  40% {background-image:
-    url("/assets/brand/background-animation/3.png");}
-
-  60% {background-image:
-    url("/assets/brand/background-animation/4.png");}
-
-  80% {background-image:
-    url("/assets/brand/background-animation/5.png");}
-
-  100% {background-image:
-    url("/assets/brand/background-animation/6.png");}
-  }
-
   .container-writing {
     width: 700px;
     margin: auto;
@@ -410,3 +391,23 @@ a.nav-link, a.btn {
 }
 
 
+.alert {
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: none;
+    animation-name: alerting;
+    animation-duration: 0.5s linear;
+}
+
+@keyframes alerting {
+    0% {
+        display: none;
+        opacity: 0; 
+    }
+
+    100% {
+        display: inline-block;
+        opacity: 100;
+    }
+}
