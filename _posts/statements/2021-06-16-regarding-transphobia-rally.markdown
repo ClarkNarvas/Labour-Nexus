@@ -1,7 +1,7 @@
 ---
 layout: nexusblog
 category: Statement
-title: A apology regarding transphobia and a speaker listed for the ‘It’s Up To Us’ rally on June 19.
+title: An apology regarding transphobia and a speaker listed for the ‘It’s Up To Us’ rally on June 19.
 date:  2021-06-16 08:03:53 +0000
 image: /images/posts/statements/apology.png
 description: Earlier this evening, Labour Nexus messed up, and we announced that a transphobic Labour councillor would be speaking at our rally.
