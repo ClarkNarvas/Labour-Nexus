@@ -4,11 +4,11 @@ category: Statement
 title: An apology regarding transphobia and a speaker listed for the ‘It’s Up To Us’ rally on June 19.
 date:  2021-06-16 08:03:53 +0000
 image: /images/posts/statements/apology.png
-author: "Author: Kerry Stapleton - Chair"
+author: "Author: Kerry Stapleton - Chair of Labour Nexus"
 description: Earlier this evening, Labour Nexus messed up, and we announced that a transphobic Labour councillor would be speaking at our rally.
 ---
 
-Written by Kerry Stapleton
+Written by Kerry Stapleton - Chair of Labour Nexus.
 
 Earlier this evening, Labour Nexus messed up, and we announced that a transphobic Labour councillor would be speaking at our rally. We are sorry. The rally organisation team only vetted Laurie three weeks before we announced that he would be speaking before he had outed himself as a transphobe and did not check his timeline again before linking to his profile.
 
