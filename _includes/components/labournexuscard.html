@@ -1,0 +1,42 @@
+<div class="card" style="margin-top: 25px;">
+    <a href="{{ include.url }}" style="text-decoration: none; color: black;font-size: 100%;">
+    <img src="{{ include.image }}" class="card-img-top" alt="{{ include.alt }}">
+    <div class="card-body">
+        <h5 class="card-title" style="font-family: BRANDFONT;">{{include.title}}</h5>
+        <p class="card-text">{{include.description}}</p>
+    </div>
+    <div class="card-footer">
+        <h4 style="text-align: center;">£{{include.price}}</h4>
+    </div>
+    </a>
+</div>
+
+<style>
+        .card {
+            background-color:#ffeeee;
+            border: 0;
+            transition: 0.2s linear;
+        }
+        
+        .card:hover {
+            background-color:white;
+        }
+        
+        .card:hover .card-img-top {
+            opacity: 0.5;
+        }
+        
+        .card:active {
+            background-color:#d84d4d;
+        }
+        
+        .card:active h5, .card:active p, .card:active small.text-muted {
+            color: white !important;
+        }
+
+                .card h5 {
+            font-family: BRANDFONT;
+            text-transform:uppercase;
+            color:#d84d4d;
+        }
+</style>

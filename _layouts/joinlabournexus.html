@@ -1,0 +1,31 @@
+
+{% include header.html %}
+    {% include components/top-image.html %}
+
+    <div class="container">
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-md-4">
+
+            {% include components/labournexuscard.html title="Newsletter" url="/newsletter" description="Join the Labour Nexus newsletter and get news from Labour Nexus as well as exclusive content." image="/membership/icons/newsletter.png" price="0" %}
+
+            </div>
+
+            <div class="col-md-4">
+        
+            {% include components/labournexuscard.html title="1 Month Membership" url="https://pay.gocardless.com/AL0003V5K2K28R" description="Become a member of Labour Nexus for only £3 a month to help us strengthen our message of a united, winning Labour party." price="3" image="/membership/icons/OneMonth.png" %}
+    
+            </div>
+
+            <div class="col-md-4">
+       
+            {% include components/labournexuscard.html title="1 Year Membership" url="https://pay.gocardless.com/AL0003V5K3BR7J" description="Become a member of Labour Nexus for only £20 a year to help us strengthen our message of a united, winning Labour party." price="20" image="/membership/icons/OneYear.png" %}
+            </div>
+            
+        </div>
+
+       
+    </div>
+
+
+{% include footer.html %}
+

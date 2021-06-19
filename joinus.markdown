@@ -1,5 +1,5 @@
 ---
-layout: nexuspage
+layout: joinlabournexus
 title: Join Us
 description: Paid membership is coming soon, but in the meantime, you can subscribe to our newsletter 💬
 ---
