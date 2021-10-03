@@ -1,7 +1,8 @@
 ---
-layout: joinlabournexus
+layout: nexusredirect
 title: Join Us
 description: Paid membership is coming soon, but in the meantime, you can subscribe to our newsletter 💬
+redirecturl: /index.html
 ---
 
 

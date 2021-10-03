@@ -1,5 +1,6 @@
 body {
   font-family: 'Archivo';
+  min-height: 100vh;
 }
 
 .site-cover {

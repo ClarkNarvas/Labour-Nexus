@@ -1,7 +1,7 @@
 ---
 layout: nexusfeedofpages
-title: Latest
-description: Everything going on at Labour Nexus
+title: News Archive
+description: Archive of "The Latest"
 navigation_weight: 2
 ---
 
