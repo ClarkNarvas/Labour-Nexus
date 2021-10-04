@@ -8,7 +8,7 @@ description:
 image: /assets/webthumbnails/important info.png
 ---
 
-Thank you for supporting Labour Nexus. We regret to inform you the closure of Labour Nexus on Monday, 4th of October. 
+Thank you for supporting Labour Nexus. We regret to inform you  ofthe closure of Labour Nexus on Monday, 4th of October. 
 <br>
 <br>
 
@@ -26,3 +26,4 @@ If you’re a member, personal information such as emails, home address and bank
 
 If you’re a supporter and joined our newsletter, you’ll shortly be getting an email giving you the option to unsubscribe. 
 
+<br><br><br><br>
