@@ -5,9 +5,10 @@
 layout: nexuspage
 title: Labour Nexus Closure
 description: 
+image: /assets/webthumbnails/important info.png
 ---
 
-Thank you for supporting Labour Nexus. We regret to inform you the closure of Labour Nexus on Sunday, 3rd of October. 
+Thank you for supporting Labour Nexus. We regret to inform you the closure of Labour Nexus on Monday, 4th of October. 
 <br>
 <br>
 
